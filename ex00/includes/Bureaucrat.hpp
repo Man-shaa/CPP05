@@ -6,7 +6,7 @@
 /*   By: msharifi <msharifi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 14:45:47 by msharifi          #+#    #+#             */
-/*   Updated: 2023/05/15 20:16:22 by msharifi         ###   ########.fr       */
+/*   Updated: 2023/05/15 21:25:03 by msharifi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 class	Bureaucrat
 {
 	private:
-		mutable std::string	_name;
+		std::string const	_name;
 		int					_grade;
 
 	public:

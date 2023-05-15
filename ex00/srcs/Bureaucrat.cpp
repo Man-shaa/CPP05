@@ -6,7 +6,7 @@
 /*   By: msharifi <msharifi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 14:45:33 by msharifi          #+#    #+#             */
-/*   Updated: 2023/05/15 20:16:22 by msharifi         ###   ########.fr       */
+/*   Updated: 2023/05/15 20:27:50 by msharifi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,6 @@ Bureaucrat::~Bureaucrat(void)
 
 Bureaucrat	&Bureaucrat::operator = (Bureaucrat &toCopy)
 {
-	_name = toCopy._name;
 	_grade = toCopy._grade;
 	return (*this);
 }
