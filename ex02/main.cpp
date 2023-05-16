@@ -6,7 +6,7 @@
 /*   By: msharifi <msharifi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 20:28:54 by msharifi          #+#    #+#             */
-/*   Updated: 2023/05/15 22:34:03 by msharifi         ###   ########.fr       */
+/*   Updated: 2023/05/16 15:16:29 by msharifi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,11 @@ int	main(void)
 
 		B1.signForm(F1);
 
+		std::cout << F1 << std::endl;
+
 		Loser.signForm(F1);
+
+		std::cout << F1 << std::endl;
 	}
 	return (0);
 }

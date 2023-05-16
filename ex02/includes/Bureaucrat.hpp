@@ -6,7 +6,7 @@
 /*   By: msharifi <msharifi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 14:45:47 by msharifi          #+#    #+#             */
-/*   Updated: 2023/05/15 21:48:30 by msharifi         ###   ########.fr       */
+/*   Updated: 2023/05/16 15:12:12 by msharifi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ class	Bureaucrat
 
 		void		IncrGrade(void);
 		void		DecrGrade(void);
-		void		signForm(Form F);
+		void		signForm(Form &F);
 };
 
 std::ostream	&operator << (std::ostream &o, const Bureaucrat &obj);
