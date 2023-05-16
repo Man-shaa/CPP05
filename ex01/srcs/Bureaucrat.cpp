@@ -6,7 +6,7 @@
 /*   By: msharifi <msharifi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 14:45:33 by msharifi          #+#    #+#             */
-/*   Updated: 2023/05/15 21:59:33 by msharifi         ###   ########.fr       */
+/*   Updated: 2023/05/16 15:12:00 by msharifi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ void	Bureaucrat::DecrGrade(void)
 	_grade++;
 }
 
-void	Bureaucrat::signForm(Form F)
+void	Bureaucrat::signForm(Form &F)
 {
 	try
 	{
