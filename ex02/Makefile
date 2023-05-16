@@ -1,4 +1,4 @@
-NAME		=	larves
+NAME		=	28b
 
 OBJ_DIR		=	objs
 SRC_DIR		=	$(shell find srcs -type d)
@@ -7,9 +7,12 @@ INC_DIR		=	$(shell find includes -type d)
 vpath %.cpp $(foreach dir, $(SRC_DIR), $(dir):)
 vpath %.hpp $(foreach dir, $(INC_DIR), $(dir):)
 
-SRCS	 	=	main.cpp			\
-				Bureaucrat.cpp		\
-				Form.cpp
+SRCS	 	=	main.cpp					\
+				Bureaucrat.cpp				\
+				AForm.cpp					\
+				PresidentialPardonForm.cpp	\
+				RobotomyRequestForm.cpp		\
+				ShrubberyCreationForm.cpp
 
 OBJS		=	$(SRCS:%.cpp=${OBJ_DIR}/%.o)
 

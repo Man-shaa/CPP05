@@ -6,12 +6,12 @@
 /*   By: msharifi <msharifi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 14:45:33 by msharifi          #+#    #+#             */
-/*   Updated: 2023/05/16 15:12:00 by msharifi         ###   ########.fr       */
+/*   Updated: 2023/05/16 15:38:46 by msharifi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Bureaucrat.hpp"
-#include "Form.hpp"
+#include "AForm.hpp"
 
 Bureaucrat::Bureaucrat(void) : _name("default"), _grade(1)
 {
@@ -70,7 +70,7 @@ void	Bureaucrat::DecrGrade(void)
 	_grade++;
 }
 
-void	Bureaucrat::signForm(Form &F)
+void	Bureaucrat::signForm(AForm &F)
 {
 	try
 	{
