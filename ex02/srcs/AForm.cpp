@@ -6,7 +6,7 @@
 /*   By: msharifi <msharifi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 20:24:44 by msharifi          #+#    #+#             */
-/*   Updated: 2023/05/16 16:52:05 by msharifi         ###   ########.fr       */
+/*   Updated: 2023/06/23 16:12:31 by msharifi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ const char	*AForm::FormNotSigned::what() const throw()
 
 AForm	&AForm::operator = (AForm &toCopy)
 {
-	(void)toCopy;
+	_status = toCopy._status;
 	return (*this);
 }
 

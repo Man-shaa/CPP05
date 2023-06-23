@@ -6,7 +6,7 @@
 /*   By: msharifi <msharifi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/16 17:52:51 by msharifi          #+#    #+#             */
-/*   Updated: 2023/05/16 19:44:50 by msharifi         ###   ########.fr       */
+/*   Updated: 2023/06/23 16:11:15 by msharifi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,6 @@ AForm	*Intern::makeForm(std::string formName, std::string target)
 		std::cout << "Intern creates " << formName << std::endl;
 		return ((this->*ptr[i])(target));
 	}
-	else
-		std::cerr << formName << " is not a valid form name !" << std::endl;
+	std::cerr << formName << " is not a valid form name !" << std::endl;
 	return (NULL);
 }

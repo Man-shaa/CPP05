@@ -6,7 +6,7 @@
 /*   By: msharifi <msharifi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 20:28:54 by msharifi          #+#    #+#             */
-/*   Updated: 2023/05/16 19:47:55 by msharifi         ###   ########.fr       */
+/*   Updated: 2023/06/23 16:13:21 by msharifi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,42 +32,44 @@ int	main(void)
 		}
 	}
 
-	{
-		FormPtr = I1.makeForm("presidential pardon", "Shanley");
+	// {
+	// 	FormPtr = I1.makeForm("presidential pardon", "Shanley");
 
-		if (FormPtr)
-		{
-			std::cout << *FormPtr << std::endl;
-			B1.signForm(*FormPtr);
-			FormPtr->execute(B1);
+	// 	if (FormPtr)
+	// 	{
+	// 		std::cout << *FormPtr << std::endl;
+	// 		B1.signForm(*FormPtr);
+	// 		FormPtr->execute(B1);
 
-			delete (FormPtr);
-		}
-	}
+	// 		delete (FormPtr);
+	// 	}
+	// }
 
-	{
+	// {
 
-		FormPtr = I1.makeForm("robotomy request", "Shanley");
+	// 	FormPtr = I1.makeForm("robotomy request", "Shanley");
 
-		if (FormPtr)
-		{
-			std::cout << *FormPtr << std::endl;
-			B1.signForm(*FormPtr);
-			FormPtr->execute(B1);
+	// 	if (FormPtr)
+	// 	{
+	// 		std::cout << *FormPtr << std::endl;
+	// 		B1.signForm(*FormPtr);
+	// 		FormPtr->execute(B1);
 
-			delete (FormPtr);
-		}
-	}
+	// 		delete (FormPtr);
+	// 	}
+	// }
 
-	{
-		FormPtr = I1.makeForm("fail", "osef");
-		if (FormPtr)
-		{
-			B1.signForm(*FormPtr);
-			FormPtr->execute(B1);
-			delete (FormPtr);
-		}
-	}
+	// {
+	// 	FormPtr = I1.makeForm("fail", "osef");
+	// 	if (FormPtr)
+	// 	{
+	// 		B1.signForm(*FormPtr);
+	// 		FormPtr->execute(B1);
+	// 		delete (FormPtr);
+	// 	}
+	// 	else
+	// 		return (1);
+	// }
 
 	return (0);
 }
